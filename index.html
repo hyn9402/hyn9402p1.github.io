@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>KDH'S HOMEPAGE</title>
+	<link href="css/css1.css" rel="stylesheet">
+</head>
+
+<body id="page_top">
+
+  <div class="line2">
+    <br>
+    <a href="#page_top">페이지상단</a>&nbsp;&nbsp;
+    <a href="#about">소개</a>&nbsp;&nbsp;
+    <a href="#profile">프로필</a>&nbsp;&nbsp;
+    <a href="#board">게시판</a>&nbsp;&nbsp;
+    <a href="#login">로그인</a>&nbsp;&nbsp;
+    <a href="#signup">회원가입</a>
+    <br><br>
+  </div>
+
+  <div class="line" id="about">
+    <h1 class="yellowcolor">인간적인개발자</h1>
+    <div class="header">
+    	<p>안녕하세요 저는 경영학과 3학년 김동현입니다. 인간적인 면모를 갖춘 개발자가 목표입니다.</p>
+    	(010) 6750-0313 · <a href="mailto:hyn9402@naver.com">hyn9402@naver.com</a>
+    </div>
+  </div>
+
+
+  <div class="line" id="profile">
+    <h1>프로필</h1>
+    <div>
+    	<div>
+    		<img class="img_profile" src="img/profile.jpg" alt="">
+    	</div>
+      <div>
+        <h3>이름</h3>
+        <div class="header">김동현</div>
+      </div>
+      <div>
+        <div>KIM DONG HYEON</div>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <h3>학력</h3>
+        <div class="header">광운대학교 경영학부 3학년</div>
+      </div>
+      <div>
+        <div>학번 : 2013508019</div>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <h3>목표</h3>
+        <div class="header">인간적인 면모를 갖춘 개발자</div>
+      </div>
+      <div>
+        <div>"최선을 다하자!"</div>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <h3>교육</h3>
+        <div class="header">컴퓨터소프트웨어학과 복수전공</div>
+        <div class="header">정보처리산업기사취득</div>
+        <div class="header">멀티캠퍼스 IoT개발자과정(라즈베리파이활용,파이썬) 수료</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="line" id="board">
+    <div class="board">
+      <h1>자유&nbsp;게시판</h1>
+      <table>
+  	    <tr>
+  	        <th class="td1">번호</th>
+  	        <th class="td2">제목</th>
+  	        <th class="td3">작성자</th>
+  	        <th class="td4">날짜</th>
+  	    </tr>
+  	    <tr>
+  	        <td class="td1">3</td>
+  	        <td class="td2">제목이 들어간다</td>
+  	        <td class="td3">이름이 들어간다</td>
+  	        <td class="td4">04.03</td>
+  	    </tr>
+  	    <tr>
+  	        <td class="td1">2</td>
+  	        <td class="td2">제목이 들어간다</td>
+  	        <td class="td3">이름이 들어간다</td>
+  	        <td class="td4">04.02</td>
+  	    </tr>
+  	    <tr>
+  	        <td class="td1">1</td>
+  	        <td class="td2">제목이 들어간다</td>
+  	        <td class="td3">이름이 들어간다</td>
+  	        <td class="td4">04.01</td>
+  	    </tr>
+  	</table>
+    </div>
+  </div> 
+
+  <div class="line" id="login">
+    <div>
+      <h1>로그인</h1>
+      <table>
+      	<tr>
+      		<th>아이디</th>
+      		<td >
+      			<input type="text" name="id" size="25%" placeholder="아이디 입력" maxlength="15">
+      		</td>
+      		<td class="tdcenter log" rowspan="2">
+      			<input type="submit" value="로그인" class="button">
+      		</td>
+      	</tr>
+      	<tr>
+      		<th>비밀번호</th>
+      		<td>
+      			<input type="password" name="pw" size="25%" placeholder="비밀번호 입력" maxlength="30" />
+      		</td>
+      	</tr>
+      </table>
+    </div>
+  </div> 
+
+  <div class="line" id="signup">
+    <div>
+      <h1>회원가입</h1>
+      <form>
+      <table>
+      	<tr>
+      		<th>아이디</th>
+      		<td>
+      			<input type="text" name="id" size="28" placeholder="아이디 입력" maxlength="15">
+      			<input class="check" type="image" src="img/check.png" alt="중복검사" align="absmiddle">
+      		</td>
+      	</tr>
+      	<tr>
+      		<th>비밀번호</th>
+      		<td>
+      			<input type="password" name="pw" size="40" placeholder="비밀번호 입력" maxlength="30" />
+      		</td>
+      	</tr>
+      	<tr>
+      		<th>성별</th>
+      		<td>
+      			<input type="radio" name="sex" value="1" checked>남
+  				<input type="radio" name="sex" value="2">여
+      		</td>
+      	</tr>
+      	<tr>
+      		<th>이름</th>
+      		<td>
+      			<input type="text" name="name" size="40" placeholder="이름 입력" maxlength="30">
+      		</td>
+      	</tr>
+      	<tr>
+      		<td class="tdcenter" colspan="2">
+      			<input type="submit" value="가입하기" class="button">
+      			<input type="reset" value="다시작성" class="button">
+      		</td>
+      	</tr>
+      </table>
+  	</form>
+    </div>
+  </div> 
+  <h1 class="line2">KDH의홈페이지</h1>
+
+</body>
+
+</html>
